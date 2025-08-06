@@ -6,23 +6,23 @@ YJCafeは、学内カフェが混雑する時間帯に、学生や職員の利�
 ---
 
 ## 📦 プロジェクト構成と技術スタック
-src/
-├── yjcafe/                        # メインパッケージ
-│   ├── Main.java                 # アプリケーション起動クラス
-│   ├── TopPanel.java            # GUI共通上部パネル
-│   ├── YJCafe.java              # メインフレーム
-│   ├── Loading.java             # ローディング画面処理
-│   ├── Page.java                # 画面遷移制御クラス
-│   └── page/                    # 各種画面とロジックを管理
-│       ├── CoffeeInfo.java         # コーヒー情報表示
-│       ├── DateReservation.java    # 日時予約画面
-│       ├── BasketObserver.java     # カート管理
-│       ├── MyPage.java             # マイページ機能
-│       ├── PayInfo.java            # 決済情報画面
-│       ├── CouponPage.java         # クーポン機能
-│       ├── Rank.java               # ポイントランク表示
-│       ├── Notice.java             # お知らせ管理
-│       └── Search.java             # メニュー検索機能
+src/<br>
+├── yjcafe/                        # メインパッケージ<br>
+│   ├── Main.java                 # アプリケーション起動クラス<br>
+│   ├── TopPanel.java            # GUI共通上部パネル<br>
+│   ├── YJCafe.java              # メインフレーム<br>
+│   ├── Loading.java             # ローディング画面処理<br>
+│   ├── Page.java                # 画面遷移制御クラス<br>
+│   └── page/                    # 各種画面とロジックを管理<br>
+│       ├── CoffeeInfo.java         # コーヒー情報表示<br>
+│       ├── DateReservation.java    # 日時予約画面<br>
+│       ├── BasketObserver.java     # カート管理<br>
+│       ├── MyPage.java             # マイページ機能<br>
+│       ├── PayInfo.java            # 決済情報画面<br>
+│       ├── CouponPage.java         # クーポン機能<br>
+│       ├── Rank.java               # ポイントランク表示<br>
+│       ├── Notice.java             # お知らせ管理<br>
+│       └── Search.java             # メニュー検索機能<br>
 
 ---
 
@@ -60,7 +60,8 @@ src/
 ![Portfolio-YJCAFE_page-0020](https://github.com/user-attachments/assets/0bd5181a-563d-4745-adab-76a9dbaf03b8)
 ![Portfolio-YJCAFE_page-0021](https://github.com/user-attachments/assets/8a3c0b69-31e4-4228-84d0-d8e102a96f8c)
 ![Portfolio-YJCAFE_page-0022](https://github.com/user-attachments/assets/bc56f5ce-b419-4208-ae90-493fcea30d37)
-![Portfolio-YJCAFE_page-0023](https://github.com/user-attachments/assets/eceac34c-4692-401e-aa76-2cab1c2bca55)![Portfolio-YJCAFE_page-0024](https://github.com/user-attachments/assets/ce90fcd3-6a37-42b4-8099-d83f398942a2)
+![Portfolio-YJCAFE_page-0023](https://github.com/user-attachments/assets/eceac34c-4692-401e-aa76-2cab1c2bca55)
+![Portfolio-YJCAFE_page-0024](https://github.com/user-attachments/assets/ce90fcd3-6a37-42b4-8099-d83f398942a2)
 ![Portfolio-YJCAFE_page-0025](https://github.com/user-attachments/assets/ae5a279a-027e-4012-9061-89f0b7a08784)
 ![Portfolio-YJCAFE_page-0026](https://github.com/user-attachments/assets/520a3b1e-9723-4c13-a2ce-c49340c2d658)
 ![Portfolio-YJCAFE_page-0027](https://github.com/user-attachments/assets/5439fb3c-a7fb-4196-82cd-1926e4f14c66)
