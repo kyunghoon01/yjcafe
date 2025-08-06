@@ -1,5 +1,4 @@
 # YJCAFE
-学内のコミュニティと連携した「事前注文アプリケーション
 ![Portfolio-YJCAFE_page-0001](https://github.com/user-attachments/assets/6cc77a9f-cf8c-45fd-816d-c25ead7cec1f)
 ![Portfolio-YJCAFE_page-0002](https://github.com/user-attachments/assets/d170dcad-3edc-4b14-bc5f-4651344322ba)
 ![Portfolio-YJCAFE_page-0003](https://github.com/user-attachments/assets/6585b6f0-d868-4a7e-b1b1-1d8c37aafe8b)
