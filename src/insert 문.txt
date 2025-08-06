@@ -1,0 +1,99 @@
+INSERT INTO 회원 (u_name, u_id, u_password, u_phone_number, u_birthday, u_email, u_enroll_date, u_profile_image,u_department)
+VALUES ('강민재', '1901002', 'asdf', '01012345678', '1990-01-01', 'hong@gmail.com', CURDATE(), 'https://cdn.pixabay.com/photo/2015/04/08/07/25/fat-712246_1280.png', '컴퓨터정보계열');
+
+INSERT INTO 카페(k_name, k_description, k_address, k_location, k_image) 
+VALUES('도서관 카페', '조용한 분위기에서 책과 커피를 함께 즐길 수 있는 휴식 공간', '대구 북구 복현로 35', '도서관 옆', 'https://i.ibb.co/3RpCqWF/LB-caffe.jpg');
+
+INSERT INTO 카페(k_name, k_description, k_address, k_location, k_image) 
+VALUES('본관카페', '분위기 좋은 공간에서 향긋한 커피를 즐길 수 있는 곳', '대구 북구 복현로 218', '본관 옆', 'https://i.ibb.co/3p7Ftvc/main-caffe.jpg');
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('아메리카노', '진한 에스프레소와 뜨거운 물이 만난 클래식한 커피', 4000, 4000, 1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/N92fS4F/lungo.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('디카페인 아메리카노', '카페인이 제거된 아메리카노로, 부드럽고 깔끔한 맛', 1800, 1800,1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/XCFzNP0/espresso.png', LAST_INSERT_ID());
+
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('에스프레소', '진한 풍미와 강렬한 커피 맛을 가진 에스프레소', 2800, 2800,1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/FKf5Sk0/ristreto.png', LAST_INSERT_ID());
+
+
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('블랙라떼', '커피와 우유의 조화로운 맛을 느낄 수 있는 블랙라떼', 3000, 3000,1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/55MghpX/latte.png', LAST_INSERT_ID());
+
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('카페모카', '견과류와 초콜릿의 조화', 2900, 2900,1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/KwCRyw3/cappuchino.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('카페라떼', '부드러운 스팀 밀크와 에스프레소의 완벽한 조화', 4500, 4500, 1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/NnrpqnH/latte-makiato.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('바닐라라떼', '녹차 치즈의 깊은 맛', 2700, 2700,1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/NnrpqnH/latte-makiato.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES  ('아이스티', '부드러운 스펀지에 마스카포네 크림', 2300, 2300,1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/PxzQGXz/ice-tea.png', LAST_INSERT_ID());
+
+
+INSERT INTO 메뉴(m_name, m_description, m_price,m_total_price, k_number)
+VALUES ('아샷추', '복숭아의 풍부한 맛과 커피의 쌉쌀한 향', 2500, 2500,1);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/pX5tHHp/ice-tea-chu.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('아메리카노', '진한 에스프레소와 뜨거운 물이 만난 클래식한 커피', 4000, 4000, 2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/N92fS4F/lungo.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('디카페인 아메리카노', '카페인이 제거된 아메리카노로, 부드럽고 깔끔한 맛', 1800, 1800,2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/XCFzNP0/espresso.png', LAST_INSERT_ID());
+
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('에스프레소', '진한 풍미와 강렬한 커피 맛을 가진 에스프레소', 2800, 2800,2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/FKf5Sk0/ristreto.png', LAST_INSERT_ID());
+
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('블랙라떼', '커피와 우유의 조화로운 맛을 느낄 수 있는 블랙라떼', 3000, 3000,2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/55MghpX/latte.png', LAST_INSERT_ID());
+
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('카페모카', '견과류와 초콜릿의 조화', 2900, 2900,2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/KwCRyw3/cappuchino.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('카페라떼', '부드러운 스팀 밀크와 에스프레소의 완벽한 조화', 4500, 4500, 2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/NnrpqnH/latte-makiato.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES ('바닐라라떼', '녹차 치즈의 깊은 맛', 2700, 2700,2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/NnrpqnH/latte-makiato.png', LAST_INSERT_ID());
+
+INSERT INTO 메뉴 (m_name, m_description, m_price, m_total_price, k_number) 
+VALUES  ('아이스티', '부드러운 스펀지에 마스카포네 크림', 2300, 2300,2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/PxzQGXz/ice-tea.png', LAST_INSERT_ID());
+
+
+INSERT INTO 메뉴(m_name, m_description, m_price,m_total_price, k_number)
+VALUES ('아샷추', '복숭아의 풍부한 맛과 커피의 쌉쌀한 향', 2500, 2500,2);
+INSERT INTO 메뉴_이미지 (m_image, m_number) VALUES ('https://i.ibb.co/pX5tHHp/ice-tea-chu.png', LAST_INSERT_ID());
+
+INSERT INTO 공지사항 (n_title, n_content, n_date)
+VALUES ('오픈 이벤트', '신규 오픈한 영진카페에서 커피 한 잔을 즐겨보세요!', CURDATE());
+
+
+INSERT INTO 공지사항_이미지 (n_image, n_number)
+VALUES ('https://cdn.pixabay.com/photo/2015/04/08/07/25/fat-712246_1280.png', 1);
+
+INSERT INTO 쿠폰 (c_serial_number, c_name, c_display, c_rate, c_min_date, c_max_date, c_min_age, c_max_age, c_min_cost, c_max_enroll_date, c_min_enroll_date) 
+VALUES ('1234567890123456', '할인 쿠폰 A', '출력', 10, '2023-01-01', '2023-12-31', 18, 60, 10000, '2023-12-31', '2023-01-01');
